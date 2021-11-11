@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+}
+
+.credits {
+  font-size: 10px;
+  position: fixed;
+  bottom: 0;
+}
