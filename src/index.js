@@ -7,7 +7,7 @@ const renderRandomTerm = (terms) => {
   const randomTitle = titles[Math.floor(Math.random() * titles.length)];
   const randomDescription = terms[randomTitle];
 
-  titleElement.innerText = `🏌️‍♂️ ${randomTitle}`;
+  titleElement.innerText = `${randomTitle}`;
   descriptionElement.innerText = randomDescription;
 };
 
